@@ -3,7 +3,7 @@
 
 use crate::error::{self, Result};
 
-use chrono::{DateTime, FixedOffset, TimeDelta,Timelike, Utc};
+use chrono::{DateTime, FixedOffset, TimeDelta, Timelike, Utc};
 use snafu::{ensure, OptionExt, ResultExt};
 
 /// Parses a user-specified datetime, either in full RFC 3339 format, or a shorthand like "in 7
